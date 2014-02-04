@@ -14,8 +14,6 @@ ro.ril.gprsclass=12
  
 ## Wi-Fi interface
 wifi.interface=wlan0
-wifi.p2pinterface=wlan0
-wifi.ap.interface=wlan0
 wifi.supplicant_scan_interval=60
 
 ## Bluetooth
