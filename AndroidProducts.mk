@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_jenad.mk
+    $(LOCAL_DIR)/omni_jena.mk
