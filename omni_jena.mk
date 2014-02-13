@@ -23,15 +23,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Inherit device files
-$(call inherit-product, device/samsung/jenad/jenad.mk)
+$(call inherit-product, device/samsung/jena/jena.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := omni_jenad
+PRODUCT_NAME := omni_jena
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-S6500D
-PRODUCT_RELEASE_NAME := GT-S6500D
-PRODUCT_DEVICE := jenad
+PRODUCT_MODEL := GT-S6500
+PRODUCT_RELEASE_NAME := GT-S6500
+PRODUCT_DEVICE := jena
 
 ## Bootanimation
 TARGET_SCREEN_HEIGHT := 480

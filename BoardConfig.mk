@@ -18,13 +18,13 @@
 include device/samsung/msm7x27a-common/BoardConfigCommon.mk
 
 ## Platform
-TARGET_BOOTLOADER_BOARD_NAME := jenad
+TARGET_BOOTLOADER_BOARD_NAME := jena
 
 ## Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod/jenad_defconfig
 
 ## Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jenad/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jena/bluetooth
 
 ## Camera
 BOARD_CAMERA_USE_GETBUFFERINFO := true
