@@ -14,6 +14,11 @@
 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jena/overlay
 
+## Rootdir
+PRODUCT_COPY_FILES += \
+    device/samsung/jena/rootdir/init.qcom.rc:root/init.qcom.rc \
+    device/samsung/jena/rootdir/fstab.qcom:root/fstab.qcom
+
 ## Build recovery?
 #BUILD_RECOVERY := true
 
