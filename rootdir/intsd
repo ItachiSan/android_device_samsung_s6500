@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+echo "IntSD: Creating mountpoint into external sdcard..."
+mkdir -p /storage/sdcard0/internal_sd
+echo "IntSD: Trying to mount internal with workaround..."
+umount /storage/sdcard0/internal_sd
+mount -w -t vfat -o uid=1000,gid=1015,fmask=0007,dmask=0007,dirsync,nosuid,nodev,noexec /dev/block/mmcblk0p23 /storage/sdcard0/internal_sd
+echo "IntSD: done!"
