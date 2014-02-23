@@ -38,6 +38,15 @@ sys.mem.max_hidden_apps=10
 ro.vendor.extension_library=/system/lib/libqc-opt.so
 com.qc.hardware=true
 
+## MM modules
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=false
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+
 ## FM
 ro.fm.analogpath.supported=true
 ro.fm.transmitter=false
