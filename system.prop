@@ -28,6 +28,11 @@ debug.gr.numframebuffers=3
 
 ## (Low Power) Audio
 lpa.decode=true
+use.non-omx.mp3.decoder=true
+use.non-omx.aac.decoder=true
+
+## Disable metadata for camcorder
+debug.camcorder.disablemeta=true
 
 ## Memory
 ro.zram.default=0
