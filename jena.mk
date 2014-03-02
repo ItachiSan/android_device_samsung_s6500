@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 ## NFC permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml
+    frameworks/base/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml
 
 # Using different splash screen for CM and CWM
 ifndef BUILD_RECOVERY

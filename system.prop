@@ -14,7 +14,8 @@ ro.ril.gprsclass=12
 
 ## Wi-Fi interface
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=60
+wifi.p2pinterface=wlan0
+wifi.supplicant_scan_interval=180
 
 ## Bluetooth
 ro.bt.bdaddr_path=/data/misc/bluedroid/bdaddr
@@ -30,9 +31,6 @@ debug.gr.numframebuffers=3
 lpa.decode=true
 use.non-omx.mp3.decoder=true
 use.non-omx.aac.decoder=true
-
-## Disable metadata for camcorder
-debug.camcorder.disablemeta=true
 
 ## Memory
 ro.zram.default=0
