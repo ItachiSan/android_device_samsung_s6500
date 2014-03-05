@@ -7,18 +7,13 @@
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/smd0
 ro.telephony.ril_class=SamsungRIL
-ro.telephony.ril.v3=datacall,icccardstatus,facilitylock
+ro.telephony.ril.v3=datacall,icccardstatus
 ro.telephony.call_ring.multiple=false
-ro.ril.hsxpa=2
-ro.ril.gprsclass=12
 
 ## Wi-Fi interface
 wifi.interface=wlan0
 wifi.p2pinterface=wlan0
 wifi.supplicant_scan_interval=180
-
-## Bluetooth
-ro.bt.bdaddr_path=/data/misc/bluedroid/bdaddr
 
 ## Display, graphics
 ro.sf.lcd_density=160
@@ -49,7 +44,7 @@ ro.fm.mulinst.recording.support=false
 ## USB, storage
 persist.sys.usb.config=mtp,adb
 persist.sys.vold.switchexternal=0
-ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
+ro.vold.switchablepair=/mnt/sdcard,/mnt/external_sd
 ro.vold.umsdirtyratio=50
 
 ## Dalvik
