@@ -15,6 +15,9 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
+## To test: CM NFC enhancements.
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+
 ## Inherit common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
@@ -30,5 +33,4 @@ PRODUCT_RELEASE_NAME := GT-S6500
 PRODUCT_DEVICE := jena
 
 ## Bootanimation
-TARGET_SCREEN_HEIGHT := 480
-TARGET_SCREEN_WIDTH := 320
+TARGET_BOOTANIMATION_NAME := vertical-320x480
